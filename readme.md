@@ -5,6 +5,8 @@ stop work ALT+TAB, start menu, task bar, menu repaint (in taskmngr (after second
 need logoff ( kill user session ) for restore after exe run
 
 
+```
+
 bool IS_USERCRIT_OWNED_AT_ALL()
 {
   return ExIsResourceAcquiredSharedLite(SGDGetUserSessionState()->_pResource) != 0;
@@ -38,3 +40,5 @@ in SfnINLPUAHNCPAINTMENUPOPUP
 }
 
 ThreadUnlock1();
+
+```
