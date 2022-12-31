@@ -18,7 +18,8 @@ struct LeaveEnterCritProperDisposition {
 
   LeaveEnterCritProperDisposition()
   {
-    _b = ExIsResourceAcquiredExclusiveLite(SGDGetUserSessionState()->_pResource) && IS_USERCRIT_OWNED_AT_ALL();
+    _b = ExIsResourceAcquiredExclusiveLite(SGDGetUserSessionState()->_pResource) && 
+      IS_USERCRIT_OWNED_AT_ALL();// are call to IS_USERCRIT_OWNED_AT_ALL have sense here ?!
     UserSessionSwitchLeaveCrit();
   }
 
