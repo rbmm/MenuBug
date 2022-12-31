@@ -45,19 +45,6 @@ END
 #endif    // APSTUDIO_INVOKED
 
 
-/////////////////////////////////////////////////////////////////////////////
-//
-// Menu
-//
-
-IDR_MENU1 MENU 
-BEGIN
-    POPUP "Press Me !"
-    BEGIN
-        MENUITEM "Exit",                        ID_PRESSME_EXIT
-    END
-END
-
 #endif    // English (U.S.) resources
 /////////////////////////////////////////////////////////////////////////////
 

@@ -2,8 +2,6 @@
 // Microsoft Visual C++ generated include file.
 // Used by MenuBug.rc
 //
-#define IDR_MENU1                       101
-#define ID_PRESSME_EXIT                 40001
 
 // Next default values for new objects
 // 
